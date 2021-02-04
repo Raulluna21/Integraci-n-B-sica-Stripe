@@ -1,0 +1,4 @@
+include ':cardscanB'
+include ':StripeScan'
+include ':app'
+rootProject.name = "PagoConTarjeta"

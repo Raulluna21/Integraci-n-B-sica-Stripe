@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckoutActivity">
+
+    <com.stripe.android.view.CardInputWidget
+        android:id="@+id/cardInputWidget"
+        android:layout_width="387dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="98dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFC107"
+        android:text="Pagar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cardInputWidget"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/cardInputWidget"
+        app:layout_constraintTop_toBottomOf="@+id/cardInputWidget"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <TextView
+        android:id="@+id/vistaPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payButton"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <TextView
+        android:id="@+id/btnscan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:text="@string/btnscan1"
+        app:layout_constraintBottom_toTopOf="@+id/payButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardInputWidget"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

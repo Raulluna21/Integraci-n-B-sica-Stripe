@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PagoConTarjeta.iml" filepath="$PROJECT_DIR$/.idea/modules/PagoConTarjeta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StripeScan/PagoConTarjeta.StripeScan.iml" filepath="$PROJECT_DIR$/.idea/modules/StripeScan/PagoConTarjeta.StripeScan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PagoConTarjeta.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PagoConTarjeta.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardscanB/PagoConTarjeta.cardscanB.iml" filepath="$PROJECT_DIR$/.idea/modules/cardscanB/PagoConTarjeta.cardscanB.iml" />
+    </modules>
+  </component>
+</project>
